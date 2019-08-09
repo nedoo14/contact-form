@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<title>Ispit</title>
+</head>
+<body>
+<div class="container">
+<h1>Send us your thoughts!</h1>
+<form>
+ <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+ <h3>Username:</h3>
+ </div>
+ <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+ <input required="required" ="Your username" id="commentUser" type="text" name="name">
+ </div>
+ <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+ <h3>Comment:</h3>
+ </div>
+ <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+ <textarea id="commentInput" required="required"></textarea>
+ </div>
+ <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+  <button type="button" onclick="addComment()" class="btn btn-primary">Submit!</button>
+ </div>
+ <br>
+</form>
+</div>
+<div class="container">
+ <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+ <h2>Comments:</h2>
+</div>
+ <div>
+  <ul id="commentList">
+   
+  </ul>
+ </div>
+ <button type="button" onclick="removeComments()" class="btn btn-primary">Delete!</button>
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
