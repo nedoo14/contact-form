@@ -1,0 +1,36 @@
+body {
+background-color: #dcccff;
+text-align: center;
+margin: 0;
+padding: 0;
+}
+h3 {
+font-size: 20px;
+}
+form h3 {
+text-align: left;
+margin-left: 28%;
+}
+.btn-primary {
+background-color: #7433ff;
+margin-left: 37%;
+border-color: #280080;
+}
+.btn-primary:hover{
+background-color: #3900b3;
+}
+#commentUser {
+background-color: #eee6ff;
+width: 45%;
+}
+#commentInput {
+background-color: #eee6ff;
+height: 200px;
+width: 45%;
+}
+.card {
+background-color: #b999ff;
+margin-left: 23.5%;
+width: 50%;
+text-align: left;
+}
